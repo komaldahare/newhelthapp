@@ -26,7 +26,7 @@ export const initalStateValue: stateType[] = [{
 
 {
     id:2,
-    name:'manoj',
+    name:'sonu',
    BP :{value:130, name: 'blood pressure'},
    HR :{value:105, name: 'Heart Rate'},
    SBP :{value:90, name: 'Sistolic Blood Pressure '},
