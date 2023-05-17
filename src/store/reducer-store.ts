@@ -16,12 +16,12 @@ export const initalState: stateType[] = [{
 export const initalStateValue: stateType[] = [{
     id:1,
     name:'komal',
-   BP :{value:120, name: 'blood pressure'},
-   HR :{value:100, name: 'Heart Rate'},
-   SBP :{value:80, name: 'Sistolic Blood Pressure '},
-   DBP :{value:90, name: 'Distolic blood pressure'},
-   PR :{value:80, name: 'Pulse Rate'},
-   SR :{value:90, name: 'Sugar'}, 
+   BP :{value:61, name: 'blood pressure'},
+   HR :{value:80, name: 'Heart Rate'},
+   SBP :{value:135, name: 'Sistolic Blood Pressure '},
+   DBP :{value:85, name: 'Distolic blood pressure'},
+   PR :{value:40, name: 'Pulse Rate'},
+   SR :{value:30, name: 'Sugar'}, 
 },
 
 {

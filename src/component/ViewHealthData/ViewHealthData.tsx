@@ -10,13 +10,13 @@ const ViewHealthData = () => {
         if(userData.SBP.value <120 && userData.DBP.value <80){
             setBPResult('NORMAL')
         }else if(
-                (userData.SBP.value <120 && userData.SBP.value <129)
+                (userData.SBP.value > 120 && userData.SBP.value <129)
                  && userData.DBP.value <80){
                 setBPResult('Elevated')
         }else if(
-            (userData.SBP.value >130 && userData.SBP.value <139)
+            (userData.SBP.value > 130 && userData.SBP.value <139)
              && 
-             userData.DBP.value >80 && userData){
+             userData.DBP.value > 80 && userData.DBP.value < 89){
             setBPResult('HIGH BP')
     }
     }
