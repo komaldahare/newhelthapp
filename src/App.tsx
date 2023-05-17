@@ -5,8 +5,7 @@ import HealthDataContext, { HealthDataContextWrapper } from './context/health-da
 import EditHealthData from './component/EditHealthData/EditHealthData';
 import { EDIT, VIEW } from './store/store-types';
 import MainComponent from './component/MainComponent/MainComponent';
-import EditComponent from './component/MainComponent/MainComponent';
-import ViewComponent from './component/MainComponent/MainComponent';
+
 // import {
 //   createBrowserRouter,
 //   RouterProvider,
@@ -15,6 +14,7 @@ import ViewComponent from './component/MainComponent/MainComponent';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import HomePage from './component/HomePage/HomePage';
 import Header from './Header/Header';
+import ViewHealthData from './component/ViewHealthData/ViewHealthData';
 
 const router = createBrowserRouter([
   {
@@ -28,12 +28,12 @@ const router = createBrowserRouter([
 
   {
     path: '/Edit',
-    element: <EditComponent/>
+    element: <EditHealthData/>
   },
 
   {
     path: '/View',
-    element: <ViewComponent/>
+    element: <ViewHealthData/>
   }
 
 
