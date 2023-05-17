@@ -16,12 +16,12 @@ const Header = () => {
 
             <li>
                 <a href ="/Edit"> Edit </a> 
-                {/* <Link to ="/main"> Main </Link> */}
+                {/* <Link to ="/Edit"> Edit </Link> */}
             </li>
 
             <li>
                 <a href ="/View"> View </a> 
-                {/* <Link to ="/main"> Main </Link> */}
+                {/* <Link to ="/View"> View </Link> */}
             </li>
 
         </ul>
