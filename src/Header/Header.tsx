@@ -14,15 +14,7 @@ const Header = () => {
                 {/* <Link to ="/main"> Main </Link> */}
             </li>
 
-            <li>
-                <a href ="/Edit"> Edit </a> 
-                {/* <Link to ="/Edit"> Edit </Link> */}
-            </li>
-
-            <li>
-                <a href ="/View"> View </a> 
-                {/* <Link to ="/View"> View </Link> */}
-            </li>
+           
 
         </ul>
     )
