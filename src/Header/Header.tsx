@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 const Header = () => {
     return (
         <ul>
-            <h1> header </h1>
+            <h1> Header</h1>
             <li>
                 <a href ="/"> Home </a> 
                 {/* <Link to = "/">Home </Link> */}
